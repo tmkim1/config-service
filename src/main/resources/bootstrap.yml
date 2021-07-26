@@ -1,2 +1,6 @@
 encrypt:
-  key: fdsfnio234nosd1dssfdsf2132tdsfddsa2%$#dsa
+#  key: fdsfnio234nosd1dssfdsf2132tdsfddsa2%$#dsa
+  key-store:
+    location: file://${user.home}/Desktop/work/keystore/apiEncryptionKey.jks
+    password: 1a2a3a4a5a
+    alias: apiEncryptionKey
